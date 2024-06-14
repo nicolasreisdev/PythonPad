@@ -1,8 +1,10 @@
 """
-Implementação de um heap max (árvore binária) em Python
+Implementação de um heap max (árvore binária) em Python.
+
 Uma árvore binária é uma estrutura de dados que consiste em um conjunto de nós, onde cada nó tem no máximo dois filhos, um à esquerda e outro à direita.
 Um heap é uma árvore binária que obedece a uma propriedade específica, onde o pai é maior que os filhos (heap max) ou menor que os filhos (heap min).
 Heap pode ser utilizado para implementar filas de prioridade, algoritmos de ordenação, entre outros.
+
 Um heap segue as seguintes regras:
 - A árvore é completa, ou seja, todos os níveis estão completos, exceto o último, que é preenchido da esquerda para a direita.
 - O pai é maior que os filhos (heap max) ou menor que os filhos (heap min).
